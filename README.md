@@ -3,7 +3,7 @@ A simple Python program using Tkinter GUI and YouTube API.
 
 
 ## Set up
-1. Get YouTube API key.
+1. Get YouTube API key. Use 'Youtube Data API v3'.
 2. Install virtual environment. 
 pip install --upgrade google-api-python-client
 
