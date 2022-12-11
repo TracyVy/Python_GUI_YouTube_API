@@ -2,5 +2,9 @@
 A simple Python program using Tkinter GUI and YouTube API.
 
 
-## Installation
-Install virtual environment. Reference https://github.com/googleapis/google-api-python-client.
+## Set up
+1. Get YouTube API key.
+2. Install virtual environment. 
+pip install --upgrade google-api-python-client
+
+Reference https://github.com/googleapis/google-api-python-client.
