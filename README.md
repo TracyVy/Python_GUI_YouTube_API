@@ -14,6 +14,12 @@ A simple Python program using Tkinter GUI and YouTube API.
    doesn't work, try the following install command.
    ` pip install google-api-python-client -t ./`
 
+## Sample response
+
+![Target sample response](/Target.png)
+
+![NatGeo sample response](/NatGeo.png)
+
 ## Reference
 
 <https://github.com/googleapis/google-api-python-client>
