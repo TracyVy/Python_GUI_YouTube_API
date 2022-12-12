@@ -4,7 +4,8 @@ A simple Python program using Tkinter GUI and YouTube API.
 
 ## Set up
 
-1. Get YouTube API key. I used 'Youtube Data API v3' and selected Public Data.
+1. Get YouTube API key from Google Developer Console -
+   [Google Developer Console](https://console.developers.google.com). I used 'Youtube Data API v3' and selected Public Data.
    ![Youtube API key](/YTapi.png)
 
 2. Install the library -
