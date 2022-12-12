@@ -9,8 +9,10 @@ A simple Python program using Tkinter GUI and YouTube API.
 
    ![Youtube API key](/YTapi.png)
 
-2. Install the library -
+2. Install the library. If
    `pip install --upgrade google-api-python-client`
+   doesn't work, try the following install command.
+   ` pip install google-api-python-client -t ./`
 
 ## Reference
 

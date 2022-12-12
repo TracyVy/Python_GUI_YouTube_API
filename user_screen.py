@@ -1,4 +1,3 @@
-
 from tkinter import *
 from googleapiclient.discovery import build
 import json
@@ -8,7 +7,7 @@ api_key = 'AIzaSyBaJMheuIniSippMYMj-xPF0lsZOKDBsrw'
 
 youtube = build('youtube', 'v3', developerKey=api_key)
 
-# Simple Ui
+# Simple UI
 
 
 def click():
@@ -26,15 +25,13 @@ def click():
             forUsername=youtube_username
         )
         response = request.execute()
-
-        # Store json string in tmp variables
         json_str = response
 
         # Parse json object to get subscriber count
-        tmp = json_str["items"][0]["statistics"]["subscriberCount"]
-        print(tmp)
-        msg = (f"This YouTube channel has {tmp} subscribers.")
-        # print(json_str["statistics"])
+        sub_count = json_str["items"][0]["statistics"]["subscriberCount"]
+        print(sub_count)
+        msg = (f"This YouTube channel has {sub_count} subscribers.")
+
     except:
         traceback.print_exc()
 
